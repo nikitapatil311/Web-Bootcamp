@@ -17,3 +17,10 @@ a:hover {
   text-decoration: underline;
   text-decoration-color: blueviolet;
 }
+
+.unordered-list {
+  position: absolute;
+  text-align: center;
+  bottom: 10px;
+  width: 100%;
+}
