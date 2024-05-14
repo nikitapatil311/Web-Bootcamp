@@ -20,3 +20,39 @@ if (arr[0] === "apple") {
 } else {
   console.log("Something went wrong");
 }
+
+function greet(name) {
+  console.log(name);
+}
+greet("Monkey");
+greet("apple");
+greet("Mango");
+
+function addNum(num1, num2) {
+  return num1 + num2;
+}
+addNum(2, 3);
+resultOfNum = addNum(5, 6);
+
+console.log("resultOfNum", resultOfNum);
+
+if (resultOfNum === 11) {
+  console.log("Nice, Let's move on");
+} else {
+  console.log("Something went wrong!!");
+}
+
+//Push Method for Arrays
+
+const array = [1, 2, 3];
+console.log(array);
+array.push("Hi, I am Here");
+console.log(array);
+
+const btn = document.getElementById("click-btn");
+
+btn.addEventListener("click", function () {
+  console.log("Button clicked");
+
+  Headers.innerText = "Button Click changed";
+});

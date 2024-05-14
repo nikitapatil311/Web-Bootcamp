@@ -28,3 +28,23 @@ a:hover {
 #header {
   background-color: black;
 } */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#click-btn {
+  border-radius: 9999px;
+  background-color: transparent;
+  padding: 2px;
+  border: 2px solid black;
+}
+
+.button_clicked {
+  color: white;
+  background-color: black;
+  font-size: 15px;
+}

@@ -34,8 +34,69 @@
 
     <h1>JavaScript</h1>
 
-    <p>Var is a global scope variable, === check strict equality, </p>
+    <p>
+        console.log("Hello World, Welcome to Web Workshop!!");
+    <p>
+        let age = 21;<br />
+        const name = "Nikita";<br />
+        console.log("Age=>", age);<br />
+        console.log("Name=>", name);<br />
+    </p>
+    <p>
+        const arr = ["apple", "Orange", "Mango"];<br />
+        console.log("Show me the fruits name=>", arr);<br />
+        console.log("First element of an arr=>", arr[0]);<br />
+
+        console.log("Second element of an arr=>", arr[1]);<br />
+
+        console.log("Third element of an arr=>", arr[2]);<br />
+    </p>
+    <p>
+
+        if (arr[0] === "apple") {<br />
+        console.log("first condition is true");<br />
+        } else if (arr[1] === "Orange") {<br />
+        console.log("Second Condition is true");<br />
+        } else {<br />
+        console.log("Something went wrong");<br />
+        }<br />
+
+        function greet(name) {<br />
+        console.log(name);<br />
+        }<br />
+        greet("Monkey");<br />
+        greet("apple");<br />
+        greet("Mango");<br />
+
+        function addNum(num1, num2) {<br />
+        return num1 + num2;<br />
+        }<br />
+        addNum(2, 3);<br />
+        resultOfNum = addNum(5, 6);<br />
+
+        console.log("resultOfNum", resultOfNum);<br />
+
+        if (resultOfNum === 11) {<br />
+        console.log("Nice, Let's move on");<br />
+        } else {<br />
+        console.log("Something went wrong!!");<br />
+        }<br />
+
+    <h1> Push Method for Arrays</h1><br />
+
+    const array = [1, 2, 3];<br />
+    console.log(array);<br />
+    array.push("Hi, I am Here");<br />
+    console.log(array);<br />
+    </p>
+
+    Var is a global scope variable, === check strict equality, </p>
+    <div class="wrapper">
+        <h1 id="header">Hello I am Here</h1>
+        <button id="click-btn">Change the Text</button>
+    </div>
     <script src="./index.js"></script>
+
 </body>
 
 </html>
